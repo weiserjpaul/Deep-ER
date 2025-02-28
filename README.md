@@ -24,7 +24,7 @@ where $\mathcal{F}$ represents the FFT operation and $\mathcal{C}$ the channel-w
 </p>
 
 ### Deep learning MRSI reconstruction
-The ground truth image $x_{GT} was generated for training purposes from fully sampled k-space data $k_{FS}$ , utilizing the conventional reconstruction method presented in Klauser et al.[^3], which is based on an iterative optimization that employs Total-Generalized-Variation (TGV) [^4] as a regularizer.
+The ground truth image $x_{GT}$ was generated for training purposes from fully sampled k-space data $k_{FS}$ , utilizing the conventional reconstruction method presented in Klauser et al.[^3], which is based on an iterative optimization that employs Total-Generalized-Variation (TGV) [^4] as a regularizer.
 
 ### Results
 In-vivo metabolic images reconstructed from two-fold accelerated (A.F.=2) ECCENTRIC data acquired in a glioma patient and a healthy volunteer are shown in the figure below. Metabolic maps in the patient show well defined boundaries for the tumor and metabolic heterogeneity within the tumor. There is higher contrast between the tumor and the normal brain in the maps produced by Deep-ER compared to TGV. In the healthy volunteer similar gray-white matter structural features are visible in the metabolic maps obtained by both Deep-ER and TGV reconstructions. 
