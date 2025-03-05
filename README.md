@@ -41,11 +41,11 @@ This repository provides the code to train a neural network in 'src', including 
 Due to privacy regulations and institutional policies, these data cannot be made publicly available in a global repository. However, access to the data may be granted upon reasonable request and subject to a data transfer agreement (DTA) with the respective institutions.
 
 ### Train your own Deep-ER
-To start the training of WALINET with the previously generated data, the 'run.py' file has to be executed.
+To start the training of Deep-ER with your own data, simply execute 'run.py'.
 ```
 python run.py
 ```
-Please modify the 'config.py' file to adjust the number of epochs and other training parameters.
+Please modify the 'config.py' file to adjust the number of epochs and other training parameters according to your needs.
 
 
 ### References
